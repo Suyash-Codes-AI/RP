@@ -1,0 +1,19 @@
+feature,confirmed,tentative,rank
+num__LagRP,True,False,1
+num__LeadRP,True,False,1
+num__CO2,True,False,1
+num__LagPF,True,False,1
+num__LeadPF,True,False,1
+num__NSM,True,False,1
+cat__WeekStatus_Weekday,True,False,1
+cat__WeekStatus_Weekend,True,False,1
+cat__Day_of_week_Friday,False,False,10
+cat__Day_of_week_Monday,False,False,8
+cat__Day_of_week_Saturday,False,False,3
+cat__Day_of_week_Sunday,False,False,5
+cat__Day_of_week_Thursday,False,False,5
+cat__Day_of_week_Tuesday,False,False,2
+cat__Day_of_week_Wednesday,False,False,9
+cat__Load_Type_Light Load,True,False,1
+cat__Load_Type_Maximum Load,False,False,7
+cat__Load_Type_Medium Load,False,False,4

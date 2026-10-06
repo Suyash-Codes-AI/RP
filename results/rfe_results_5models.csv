@@ -1,0 +1,10 @@
+feature,selected,rank
+num__LagRP,True,1
+num__LeadRP,True,1
+num__CO2,True,1
+num__LagPF,True,1
+num__LeadPF,True,1
+num__NSM,True,1
+cat__WeekStatus_Weekday,False,2
+cat__WeekStatus_Weekend,False,3
+cat__Load_Type_Light_Load,True,1

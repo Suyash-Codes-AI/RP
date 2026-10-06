@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local results
+results/
+
+# OS / IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Keep the dataset local
+data/

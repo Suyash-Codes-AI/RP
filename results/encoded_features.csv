@@ -1,0 +1,19 @@
+feature
+num__LagRP
+num__LeadRP
+num__CO2
+num__LagPF
+num__LeadPF
+num__NSM
+cat__WeekStatus_Weekday
+cat__WeekStatus_Weekend
+cat__Day_of_week_Friday
+cat__Day_of_week_Monday
+cat__Day_of_week_Saturday
+cat__Day_of_week_Sunday
+cat__Day_of_week_Thursday
+cat__Day_of_week_Tuesday
+cat__Day_of_week_Wednesday
+cat__Load_Type_Light Load
+cat__Load_Type_Maximum Load
+cat__Load_Type_Medium Load
