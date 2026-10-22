@@ -1,0 +1,15 @@
+{
+    "method": "training-only empirical quantiles",
+    "training_start": "2018-01-02 00:00:00",
+    "training_end": "2018-10-20 02:45:00",
+    "training_rows": 27948,
+    "purge_gap": 4,
+    "test_start": "2018-10-20 04:00:00",
+    "p75_kwh": 51.34,
+    "p90_kwh": 81.04899999999998,
+    "regime_rules": {
+        "Normal": "Usage_kWh < 51.34",
+        "High": "51.34 <= Usage_kWh < 81.04899999999998",
+        "Peak": "Usage_kWh >= 81.04899999999998"
+    }
+}

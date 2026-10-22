@@ -1,0 +1,109 @@
+Model,Feature_Set,Target,Current_Regime,Actual_Future_Peaks,True_Positives,False_Negatives,Peak_Recall
+KNN,X_A,target_15min,Normal,24,0,24,0.0
+KNN,X_A,target_15min,High,112,27,85,0.24107142857142858
+KNN,X_A,target_15min,Peak,309,142,167,0.459546925566343
+KNN,X_A,target_1hour,Normal,130,25,105,0.19230769230769232
+KNN,X_A,target_1hour,High,118,10,108,0.0847457627118644
+KNN,X_A,target_1hour,Peak,197,26,171,0.1319796954314721
+KNN,X_B,target_15min,Normal,24,0,24,0.0
+KNN,X_B,target_15min,High,112,28,84,0.25
+KNN,X_B,target_15min,Peak,309,163,146,0.5275080906148867
+KNN,X_B,target_1hour,Normal,130,17,113,0.13076923076923078
+KNN,X_B,target_1hour,High,118,7,111,0.059322033898305086
+KNN,X_B,target_1hour,Peak,197,32,165,0.16243654822335024
+KNN,X_C,target_15min,Normal,24,0,24,0.0
+KNN,X_C,target_15min,High,112,24,88,0.21428571428571427
+KNN,X_C,target_15min,Peak,309,202,107,0.6537216828478964
+KNN,X_C,target_1hour,Normal,130,21,109,0.16153846153846155
+KNN,X_C,target_1hour,High,118,8,110,0.06779661016949153
+KNN,X_C,target_1hour,Peak,197,41,156,0.20812182741116753
+LightGBM,X_A,target_15min,Normal,24,0,24,0.0
+LightGBM,X_A,target_15min,High,112,37,75,0.33035714285714285
+LightGBM,X_A,target_15min,Peak,309,234,75,0.7572815533980582
+LightGBM,X_A,target_1hour,Normal,130,43,87,0.33076923076923076
+LightGBM,X_A,target_1hour,High,118,18,100,0.15254237288135594
+LightGBM,X_A,target_1hour,Peak,197,105,92,0.5329949238578681
+LightGBM,X_B,target_15min,Normal,24,1,23,0.041666666666666664
+LightGBM,X_B,target_15min,High,112,39,73,0.3482142857142857
+LightGBM,X_B,target_15min,Peak,309,245,64,0.7928802588996764
+LightGBM,X_B,target_1hour,Normal,130,40,90,0.3076923076923077
+LightGBM,X_B,target_1hour,High,118,21,97,0.17796610169491525
+LightGBM,X_B,target_1hour,Peak,197,121,76,0.6142131979695431
+LightGBM,X_C,target_15min,Normal,24,1,23,0.041666666666666664
+LightGBM,X_C,target_15min,High,112,38,74,0.3392857142857143
+LightGBM,X_C,target_15min,Peak,309,284,25,0.919093851132686
+LightGBM,X_C,target_1hour,Normal,130,24,106,0.18461538461538463
+LightGBM,X_C,target_1hour,High,118,17,101,0.1440677966101695
+LightGBM,X_C,target_1hour,Peak,197,147,50,0.7461928934010152
+Linear Regression,X_A,target_15min,Normal,24,0,24,0.0
+Linear Regression,X_A,target_15min,High,112,19,93,0.16964285714285715
+Linear Regression,X_A,target_15min,Peak,309,161,148,0.5210355987055016
+Linear Regression,X_A,target_1hour,Normal,130,0,130,0.0
+Linear Regression,X_A,target_1hour,High,118,1,117,0.00847457627118644
+Linear Regression,X_A,target_1hour,Peak,197,26,171,0.1319796954314721
+Linear Regression,X_B,target_15min,Normal,24,0,24,0.0
+Linear Regression,X_B,target_15min,High,112,21,91,0.1875
+Linear Regression,X_B,target_15min,Peak,309,168,141,0.5436893203883495
+Linear Regression,X_B,target_1hour,Normal,130,0,130,0.0
+Linear Regression,X_B,target_1hour,High,118,1,117,0.00847457627118644
+Linear Regression,X_B,target_1hour,Peak,197,28,169,0.14213197969543148
+Linear Regression,X_C,target_15min,Normal,24,0,24,0.0
+Linear Regression,X_C,target_15min,High,112,2,110,0.017857142857142856
+Linear Regression,X_C,target_15min,Peak,309,257,52,0.8317152103559871
+Linear Regression,X_C,target_1hour,Normal,130,0,130,0.0
+Linear Regression,X_C,target_1hour,High,118,0,118,0.0
+Linear Regression,X_C,target_1hour,Peak,197,46,151,0.233502538071066
+Random Forest,X_A,target_15min,Normal,24,0,24,0.0
+Random Forest,X_A,target_15min,High,112,30,82,0.26785714285714285
+Random Forest,X_A,target_15min,Peak,309,224,85,0.7249190938511327
+Random Forest,X_A,target_1hour,Normal,130,42,88,0.3230769230769231
+Random Forest,X_A,target_1hour,High,118,19,99,0.16101694915254236
+Random Forest,X_A,target_1hour,Peak,197,113,84,0.5736040609137056
+Random Forest,X_B,target_15min,Normal,24,0,24,0.0
+Random Forest,X_B,target_15min,High,112,34,78,0.30357142857142855
+Random Forest,X_B,target_15min,Peak,309,229,80,0.7411003236245954
+Random Forest,X_B,target_1hour,Normal,130,31,99,0.23846153846153847
+Random Forest,X_B,target_1hour,High,118,16,102,0.13559322033898305
+Random Forest,X_B,target_1hour,Peak,197,104,93,0.5279187817258884
+Random Forest,X_C,target_15min,Normal,24,1,23,0.041666666666666664
+Random Forest,X_C,target_15min,High,112,30,82,0.26785714285714285
+Random Forest,X_C,target_15min,Peak,309,286,23,0.9255663430420712
+Random Forest,X_C,target_1hour,Normal,130,36,94,0.27692307692307694
+Random Forest,X_C,target_1hour,High,118,8,110,0.06779661016949153
+Random Forest,X_C,target_1hour,Peak,197,124,73,0.6294416243654822
+SVR,X_A,target_15min,Normal,24,0,24,0.0
+SVR,X_A,target_15min,High,112,25,87,0.22321428571428573
+SVR,X_A,target_15min,Peak,309,185,124,0.598705501618123
+SVR,X_A,target_1hour,Normal,130,3,127,0.023076923076923078
+SVR,X_A,target_1hour,High,118,2,116,0.01694915254237288
+SVR,X_A,target_1hour,Peak,197,3,194,0.015228426395939087
+SVR,X_B,target_15min,Normal,24,0,24,0.0
+SVR,X_B,target_15min,High,112,21,91,0.1875
+SVR,X_B,target_15min,Peak,309,194,115,0.627831715210356
+SVR,X_B,target_1hour,Normal,130,5,125,0.038461538461538464
+SVR,X_B,target_1hour,High,118,5,113,0.0423728813559322
+SVR,X_B,target_1hour,Peak,197,33,164,0.16751269035532995
+SVR,X_C,target_15min,Normal,24,0,24,0.0
+SVR,X_C,target_15min,High,112,12,100,0.10714285714285714
+SVR,X_C,target_15min,Peak,309,241,68,0.7799352750809061
+SVR,X_C,target_1hour,Normal,130,5,125,0.038461538461538464
+SVR,X_C,target_1hour,High,118,4,114,0.03389830508474576
+SVR,X_C,target_1hour,Peak,197,71,126,0.3604060913705584
+XGBoost,X_A,target_15min,Normal,24,0,24,0.0
+XGBoost,X_A,target_15min,High,112,34,78,0.30357142857142855
+XGBoost,X_A,target_15min,Peak,309,233,76,0.7540453074433657
+XGBoost,X_A,target_1hour,Normal,130,25,105,0.19230769230769232
+XGBoost,X_A,target_1hour,High,118,19,99,0.16101694915254236
+XGBoost,X_A,target_1hour,Peak,197,96,101,0.4873096446700508
+XGBoost,X_B,target_15min,Normal,24,0,24,0.0
+XGBoost,X_B,target_15min,High,112,39,73,0.3482142857142857
+XGBoost,X_B,target_15min,Peak,309,227,82,0.7346278317152104
+XGBoost,X_B,target_1hour,Normal,130,26,104,0.2
+XGBoost,X_B,target_1hour,High,118,19,99,0.16101694915254236
+XGBoost,X_B,target_1hour,Peak,197,98,99,0.49746192893401014
+XGBoost,X_C,target_15min,Normal,24,1,23,0.041666666666666664
+XGBoost,X_C,target_15min,High,112,33,79,0.29464285714285715
+XGBoost,X_C,target_15min,Peak,309,288,21,0.9320388349514563
+XGBoost,X_C,target_1hour,Normal,130,24,106,0.18461538461538463
+XGBoost,X_C,target_1hour,High,118,18,100,0.15254237288135594
+XGBoost,X_C,target_1hour,Peak,197,145,52,0.7360406091370558
