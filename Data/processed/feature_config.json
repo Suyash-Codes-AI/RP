@@ -1,0 +1,61 @@
+{
+    "X_A": [
+        "usage_lag_1",
+        "usage_lag_2",
+        "usage_lag_4",
+        "usage_lag_96",
+        "hour",
+        "minute",
+        "day_of_week_num",
+        "month"
+    ],
+    "X_B": [
+        "usage_lag_1",
+        "usage_lag_2",
+        "usage_lag_4",
+        "usage_lag_96",
+        "hour",
+        "minute",
+        "day_of_week_num",
+        "month",
+        "Lagging_Current_Reactive.Power_kVarh_lag_1",
+        "Leading_Current_Reactive_Power_kVarh_lag_1",
+        "Lagging_Current_Power_Factor_lag_1",
+        "Leading_Current_Power_Factor_lag_1"
+    ],
+    "X_C": [
+        "usage_lag_1",
+        "usage_lag_2",
+        "usage_lag_4",
+        "usage_lag_96",
+        "hour",
+        "minute",
+        "day_of_week_num",
+        "month",
+        "Lagging_Current_Reactive.Power_kVarh_lag_1",
+        "Leading_Current_Reactive_Power_kVarh_lag_1",
+        "Lagging_Current_Power_Factor_lag_1",
+        "Leading_Current_Power_Factor_lag_1",
+        "Lagging_Current_Reactive.Power_kVarh",
+        "Leading_Current_Reactive_Power_kVarh",
+        "Lagging_Current_Power_Factor",
+        "Leading_Current_Power_Factor"
+    ],
+    "targets": [
+        "target_15min",
+        "target_1hour"
+    ],
+    "forecast_horizons": {
+        "target_15min": "15 minutes ahead",
+        "target_1hour": "60 minutes ahead"
+    },
+    "notes": {
+        "X_A": "Historical energy-use lags and timestamp-derived calendar features.",
+        "X_B": "X_A plus one-step lagged electrical sensor measurements.",
+        "X_C": "X_B plus contemporaneous sensor measurements; use only if available at forecast origin.",
+        "excluded_initially": [
+            "CO2(tCO2): derivation and timing unverified",
+            "Load_Type: assignment rule and forecast-time availability unverified"
+        ]
+    }
+}

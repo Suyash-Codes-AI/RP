@@ -1,0 +1,14 @@
+variable,role,initial_policy,status
+timestamp,Time reference,Derive calendar features,Eligible
+Usage_kWh,Energy consumption,Use historical/current values and lags,Eligible subject to forecast-origin definition
+NSM,Seconds from midnight,Verify against timestamp,Validate
+WeekStatus,Weekday/weekend label,Verify against timestamp,Validate
+Day_of_week,Day label,Verify against timestamp,Validate
+Lagging_Current_Reactive.Power_kVarh,Electrical sensor,Use historical lags initially,Validate measurement timing
+Leading_Current_Reactive_Power_kVarh,Electrical sensor,Use historical lags initially,Validate measurement timing
+Lagging_Current_Power_Factor,Electrical sensor,Use historical lags initially,Validate measurement timing
+Leading_Current_Power_Factor,Electrical sensor,Use historical lags initially,Validate measurement timing
+CO2(tCO2),Emissions measurement,Do not approve until timing and derivation are known,Investigate
+Load_Type,Operating-condition label,Check how and when the label is assigned,Investigate
+target_15min,Future outcome,Target only,Never use as predictor
+target_1hour,Future outcome,Target only,Never use as predictor
